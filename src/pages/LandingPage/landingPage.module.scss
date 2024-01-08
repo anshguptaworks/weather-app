@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  padding: 1.5rem;
+  background: linear-gradient(
+      359deg,
+      rgba(78, 118, 117, 0.26) 0.77%,
+      rgba(86, 108, 105, 0.36) 58.3%,
+      #000 104.97%
+    ),
+    #000;
+
+  .cardContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 56px;
+
+    .heading {
+      font-size: 24px;
+      font-weight: 600;
+      color: #fff;
+    }
+  }
+
+  .weatherContainer {
+    text-align: center;
+    margin-top: 32px;
+    color: white;
+    width: 520px;
+
+    .text {
+      color: #fff;
+    }
+
+    .tempretureWrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 24px;
+    }
+  }
+}

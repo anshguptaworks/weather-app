@@ -1,0 +1,49 @@
+.searchBarContainer {
+  padding: 8px 12px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid #fff;
+
+  .searchBar {
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    width: 100%;
+    outline: none;
+  }
+
+  .searchIcon {
+    stroke: #fff;
+    fill: #fff;
+  }
+
+  .searchPathClass {
+    stroke: #fff;
+    fill: #fff;
+  }
+
+  .suggestionsContainer {
+    max-height: 300px;
+    overflow: hidden;
+    overflow-y: auto;
+    position: absolute;
+    width: 50%;
+    background-color: #fff;
+    z-index: 1000;
+    right: -300px;
+    top: 20px;
+  }
+
+  .suggestionItem {
+    padding: 8px 12px;
+    cursor: pointer;
+    &:hover {
+      background-color: #f7f7f7;
+    }
+  }
+}
